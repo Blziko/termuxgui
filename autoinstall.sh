@@ -61,6 +61,7 @@ command mkdir -pv "${HOME}/.themes"
 command mkdir -pv "${HOME}/.config"
 command mkdir -pv "${HOME}/.local/share/fonts"
 command mkdir -pv "${HOME}/.config/audacious"
+command mkdir -pv "${HOME}/.config/fontconfig"
 
 if [[ ! -d "${HOME}/storage" ]] && ! command ls '/sdcard/' >/dev/null 2>&1; then
     command termux-setup-storage

@@ -8,8 +8,8 @@ killall -9 \
     pulseaudio \
     2>/dev/null
 
-rm -rf "$PREFIX/tmp/.X11-unix"
-rm -rf "$PREFIX/tmp/.X1-lock"
+rm -rf "${PREFIX}/tmp/.X11-unix"
+rm -rf "${PREFIX}/tmp/.X1-lock"
 
 pulseaudio --start --exit-idle-time=-1
 pacmd \
