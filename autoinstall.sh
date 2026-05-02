@@ -36,6 +36,7 @@ require=(
     "gimp"
     "konsole"
     "kdenlive"
+    "wmctrl"
 )
 
 command apt install -y "${require[@]}"
