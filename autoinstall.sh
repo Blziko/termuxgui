@@ -46,15 +46,6 @@ echo -e \
     '[Settings]\ngtk-application-prefer-dark-theme=1' \
     > "${HOME}/.config/gtk-3.0/settings.ini"
 
-command git clone --depth 1 \
-    'https://github.com/Zeronetsec/Muxly.git'
-cd Muxly
-command chmod +x install.sh
-./install.sh
-cd
-
-command muxly --install-rootfs kali_rolling
-
 command mkdir -pv "${HOME}/.wallpaper"
 command mkdir -pv "${HOME}/.icons"
 command mkdir -pv "${HOME}/.themes"
