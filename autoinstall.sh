@@ -18,7 +18,6 @@ require=(
     "xfce4-screenshooter"
     "virglrenderer-android"
     "chromium"
-    "florence"
     "pulseaudio"
     "audacious"
     "ristretto"
